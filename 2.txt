@@ -1,0 +1,33 @@
+Python If-Else
+
+Sample Input 1
+
+24
+Sample Output 1
+
+Not Weird
+
+
+
+Input Format::
+
+A single line containing a positive integer,n.
+
+Output Format::
+
+Print Weird if the number is weird. Otherwise, print Not Weird.
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+if __name__ == '__main__':
+    n = int(input().strip())
+    if n%2==0:
+      print("Not Weird")
+    else:
+      print("Weird")
